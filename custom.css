@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+.typing-animation {
+    border-right: 2px solid #3B82F6;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%, 50% { border-color: transparent; }
+    51%, 100% { border-color: #3B82F6; }
+}
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.card-hover {
+    transition: all 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+}
